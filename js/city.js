@@ -10,7 +10,7 @@
             animation: "fade",
             controlNav: false,
             directionNav: false,
-            slideshowSpeed: 4800,
+            slideshowSpeed: 2800,
             animationSpeed: 800
         });
 		

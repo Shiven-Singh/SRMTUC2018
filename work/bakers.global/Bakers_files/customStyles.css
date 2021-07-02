@@ -1,0 +1,672 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+
+html,
+body {
+  height: 100% !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.work-sans-b {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+}
+
+.work-sans-m {
+  font-family: "Work Sans", sans-serif !important;
+  font-weight: 300 !important;
+}
+
+.work-sans-r {
+  font-family: "Work Sans", sans-serif !important;
+  font-weight: 400 !important;
+}
+
+/* .open-sans-m {
+  font-family: "Open Sans", sans-serif;
+} */
+.open-sans-m {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+.open-sans-r {
+  font-family: "Open Sans", sans-serif;
+}
+
+.sectionheader {
+  font-size: 44px;
+  font-family: "Work Sans", sans-serif !important;
+  font-weight: 400 !important;
+  letter-spacing: -1px;
+}
+
+/*homepage banner*/
+#carouselExampleIndicators .carousel-inner {
+  /* height: 90vh; */
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item {
+  /* height: 100%; */
+}
+
+#carouselExampleIndicators .carousel-inner .carousel-item img {
+  /* height: 100%; */
+}
+
+#carouselExampleIndicatorsMobileView {
+  display: none;
+}
+
+.webviewcorr {
+  display: block;
+}
+
+.mobileviewcorr {
+  display: none;
+}
+.webviewcake {
+  display: block;
+}
+
+.mobileviewcake {
+  display: none;
+}
+
+#WhiteBoxSection {
+  width: 100%;
+  height: 319px;
+  /* transform: translateY(23px); */
+}
+
+.whiteBox {
+  border: 1px solid #f1f1f1;
+}
+
+#WhiteBoxSection .whiteBox {
+  width: 542px;
+  height: 346px;
+  border-radius: 10px !important;
+}
+
+#IndustrySolutions {
+  font-family: "Work Sans", sans-serif;
+  height: 454px;
+}
+
+#IndustrySolutions .solImage {
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 5px;
+}
+
+#contactForm input::placeholder {
+  color: #000;
+}
+
+.footerSection {
+  /* background-image: url("assets/footer\ image.png"); */
+  background-repeat: no-repeat;
+  height: 95vh;
+  margin-top: 31px;
+
+  position: relative;
+}
+
+.footerSection .footerBG {
+  position: absolute;
+  bottom: 0px;
+  left: -40px;
+}
+
+.footerSection .footerBG img {
+  height: 25rem;
+}
+
+#contactForm {
+  font-size: 14px;
+}
+
+/* .footerSection {
+  background-image: url("assets/footer\ image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 0px !important;
+  margin: 0px;
+  height: 110vh;
+} */
+
+#Connect {
+  width: 80%;
+  transform: translateX(280px);
+}
+
+#Connect .quickllinks {
+  transform: translateY(73px);
+}
+
+.mobInfraArrows {
+  display: none !important;
+}
+
+.WhiteBoxSection h3 {
+  font-family: "Work Sans", sans-serif;
+}
+
+#IndustrySolutions .titleweb {
+  display: block;
+  line-height: 22px;
+}
+
+#IndustrySolutions .titlemob {
+  display: none;
+}
+
+@media only screen and (min-width: 767px) {
+  #IndustrySolutions .solImage {
+    width: 800px !important;
+    min-height: 454px;
+  }
+
+  #WhiteBoxSection .whiteBox .owldiv div img {
+    width: 75px;
+    height: 75px;
+  }
+
+  .brandsImageRightweb {
+    height: 274px;
+    width: 282px;
+    transform: translateY(44px);
+  }
+  .webviewcake {
+    height: 335px;
+    width: 471px;
+    transform: translateY(40px);
+    z-index: -1;
+  }
+
+  .webviewcorr {
+    width: 314px;
+    height: 355px;
+    transform: translate(-30px, -30px);
+  }
+
+  #AboutUs {
+    padding-bottom: 40px;
+  }
+
+  #IndustrySolutions h5 {
+    font-size: 16px;
+  }
+
+  .whiteBox {
+    padding: 20px 0px !important;
+  }
+
+  #Infrastructure {
+    padding: 50px 0px;
+    padding-left: 5rem;
+  }
+
+  #Infrastructure .sectionleft {
+    margin-top: 50px;
+    /* margin-right: 3rem; */
+  }
+
+  #IndustrySolutions .solImage div {
+    height: 90%;
+    width: 90%;
+  }
+
+  #IndustrySolutions .solImage div img {
+    height: 90%;
+    width: 90%;
+    padding: 14px 32px;
+    margin-top: 20px;
+  }
+
+  #IndustrySolutions .solImage div img {
+    height: auto;
+    width: 75%;
+    padding: 15px 26px;
+  }
+
+  #Products .ProductItems {
+    margin-top: 60px;
+  }
+
+  #Products .wheatimg {
+    transform: translateY(-45px);
+  }
+
+  #Products h3 {
+    margin-top: 90px !important;
+  }
+
+  #Products figure {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+  }
+  #Products figure img {
+    width: 100%;
+    height: 90%;
+  }
+
+  .footerSection footer {
+    width: 100%;
+    padding: 0% 10%;
+  }
+  .footerSection footer div {
+    display: inline;
+    font-size: 14px;
+  }
+  .footerSection footer .copyright {
+    margin-left: 14rem;
+  }
+  .footerSection footer .developertag {
+    float: right;
+  }
+
+  .connectDetails .socialicons img {
+    height: 16px;
+    width: 16px;
+  }
+
+  .solImage {
+    background-image: url("assets/blackSol.jpg");
+  }
+  .webInfraArrows a {
+    width: 30px;
+    height: 30px;
+  }
+
+  #Connect .connectDetails h6 {
+    font-size: 18px;
+    margin-bottom: -10px;
+    margin-bottom: 0px !important;
+  }
+
+  #Connect .connectDetails span {
+    font-size: 14px;
+  }
+
+  #carouselExampleControls {
+    overflow: hidden;
+  }
+
+  #carouselExampleControls .item {
+    width: 761px;
+    height: 461px;
+    border-radius: 10px;
+  }
+
+  #carouselExampleControls .item img {
+    width: 761px;
+    height: 391px;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  #carouselExampleControls .item div {
+    text-align: center;
+    padding: 20px 0px;
+    background-color: #fff;
+    border-radius: 0px 0px 10px 10px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  html,
+  body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+  }
+  #carouselExampleIndicatorsMobileView {
+    display: Block;
+  }
+
+  #carouselExampleIndicatorsMobileView .carousel-inner .carousel-item img {
+    object-fit: cover !important;
+  }
+
+  .brandsImageRightmob {
+    height: 200px !important;
+    width: 280px;
+  }
+
+  #carouselExampleIndicators {
+    display: none;
+  }
+  .webviewcorr {
+    display: none;
+  }
+
+  .mobileviewcorr {
+    display: block;
+    position: absolute;
+    width: 130px;
+    right: 0;
+    transform: translate(-55px, 0px);
+  }
+  .webviewcake {
+    display: none;
+  }
+
+  #WhiteBoxSection .whiteBox .owldiv {
+    margin-top: -6px;
+  }
+
+  .mobileviewcake {
+    display: block;
+    width: 160px;
+    transform: translate(20px, 14px);
+  }
+
+  #IndustrySolutions .solImage {
+    width: 325px;
+    height: 410px;
+    margin: auto;
+    margin-top: 20px;
+    transform: translateY(0px) !important;
+  }
+
+  #IndustrySolutions .solImage .transformImg {
+    transform: translate(0, -40px);
+  }
+  #IndustrySolutions .solImage .transformImg2 {
+    transform: translate(0, -80px);
+  }
+
+  #IndustrySolutions {
+    height: 500px;
+  }
+
+  #IndustrySolutions h5 {
+    font-size: 14px;
+  }
+
+  #IndustrySolutions .solImage div img {
+    padding: 10px 10px;
+  }
+
+  #contactForm input,
+  #contactForm select {
+    display: block;
+    width: 100% !important;
+  }
+
+  .contactFormClass {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  #contactForm {
+    width: 90%;
+    margin: auto;
+  }
+
+  .webFrozenBtn {
+    display: none;
+  }
+
+  #Connect {
+    width: 100%;
+    transform: translateX(0px);
+  }
+
+  #contactForm .flex {
+    width: 100% !important;
+  }
+  #contactForm .fieldsEntry {
+    width: 100% !important;
+  }
+
+  #Infrastructure {
+    min-height: 340px;
+    height: 340px;
+    padding: 30px 10px;
+    font-family: "Work Sans", sans-serif;
+  }
+
+  .multi-item-carousel {
+    overflow: hidden;
+    height: 200px;
+    width: 100%;
+  }
+  .multi-item-carousel img {
+    height: 160px;
+    width: 100%;
+    border-radius: 4px 4px 0px 0px;
+  }
+  .multi-item-carousel .carousel-control.left,
+  .multi-item-carousel .carousel-control.right {
+    background: rgba(255, 255, 255, 0.3);
+    width: 100%;
+  }
+  .multi-item-carousel .carousel-inner {
+    width: 100%;
+    left: 0%;
+  }
+
+  .multi-item-carousel .carousel-inner .carousel-item .item__third div {
+    height: 30px;
+    width: 100%;
+    font-size: 16px;
+    padding: 0px 0px;
+    background-color: #fff;
+    border-radius: 4px;
+  }
+  .item__third {
+    float: left;
+    position: relative; /* captions can now be added */
+    width: 100%;
+    margin-left: 0px;
+    padding-right: 0px;
+  }
+
+  #IndustrySolutions {
+    text-align: center;
+  }
+
+  .webInfraArrows {
+    display: none !important;
+  }
+
+  #carouselExampleControls .carousel-inner {
+    height: 200px;
+  }
+
+  .brandsImageRightweb {
+    display: none;
+  }
+
+  #AboutUs {
+    padding-top: 150px;
+  }
+
+  #Products {
+    padding-top: 6rem;
+    margin-top: 80px;
+  }
+
+  #Products .ProductItems {
+    margin: auto;
+    margin: 30px 0px;
+  }
+
+  .solImage {
+    background-image: url("assets/blacksolmob.jpg");
+  }
+
+  #Products figure {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+
+  .sectionheader {
+    font-size: 22px !important;
+    font-family: "Work Sans", sans-serif !important;
+    font-weight: 500 !important;
+  }
+
+  #IndustrySolutions .titleweb {
+    display: none !important;
+  }
+
+  #IndustrySolutions .titlemob {
+    display: block;
+  }
+
+  #Infrastructure .mobInfraArrows {
+    display: block !important;
+    width: 50%;
+    transform: translate(75%, 6px);
+  }
+
+  #Infrastructure .mobInfraArrows a {
+    width: 25px;
+    height: 25px;
+    margin: 0px 8px;
+  }
+
+  #Infrastructure .mobInfraArrows a {
+    display: inline-block;
+  }
+
+  #Infrastructure div h3 {
+    text-align: center;
+    font-weight: 500 !important;
+  }
+  /* 
+  .multi-item-carousel {
+    overflow: hidden;
+    height: 461px;
+    width: 100%;
+  }
+  .multi-item-carousel img {
+    height: 391px;
+    width: 748px;
+    border-radius: 8px 8px 0px 0px;
+  }
+  .multi-item-carousel .carousel-control.left,
+  .multi-item-carousel .carousel-control.right {
+    background: rgba(255, 255, 255, 0.3);
+    width: 748px;
+  }
+  .multi-item-carousel .carousel-inner {
+    width: 150%;
+    left: 0%;
+  }
+  
+  .multi-item-carousel .carousel-inner .carousel-item .item__third div {
+    height: 70px;
+    width: 100%;
+    font-size: 16px;
+    padding: 20px 0px;
+    background-color: #fff;
+    border-radius: 8px;
+  } */
+
+  .footerSection {
+    background-image: none;
+    padding-bottom: 0px !important;
+    margin: 0px;
+  }
+  #Connect {
+    margin-left: 0px;
+  }
+
+  #Connect .connectDetails {
+    display: inline-block;
+    width: 40%;
+  }
+
+  #Connect .quickllinks {
+    margin-left: 5%;
+    transform: translateY(-125px);
+  }
+
+  .footerSection footer {
+    text-align: center;
+    padding: 20px;
+  }
+
+  .quickllinks {
+    transform: translateY(-80px);
+  }
+
+  .footerSection .socialicons img {
+    height: 20px;
+    width: 20px;
+    margin: 0px 10px !important;
+  }
+
+  .footerSection footer div {
+    font-size: 14px;
+  }
+
+  .footerSection footer .copyright {
+    margin-left: 0rem;
+  }
+  .footerSection footer .developertag {
+    float: none;
+  }
+
+  #WhiteBoxSection {
+    width: 100%;
+    height: 300px;
+    /* transform: translateY(-50px) !important; */
+  }
+
+  #WhiteBoxSection .DisplayTest {
+    font-size: 22px;
+  }
+
+  #WhiteBoxSection .whiteBox {
+    width: 90%;
+    height: 230px;
+    margin: auto;
+    transform: translateY(-27px);
+  }
+
+  #WhiteBoxSection .whiteBox .owldiv div img {
+    width: 70px;
+    height: 55px;
+  }
+
+  #carouselExampleControls {
+    width: 325px;
+    height: 200px;
+    margin: auto;
+    border-radius: 10px;
+  }
+
+  #carouselExampleControls .item img {
+    width: 325px;
+    height: 160px;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  #carouselExampleControls .item div {
+    text-align: center;
+    font-size: 13px;
+    height: 37px;
+    padding-top: 8px;
+    border-radius: 0px 0px 12px 12px;
+    background-color: #fff;
+  }
+}

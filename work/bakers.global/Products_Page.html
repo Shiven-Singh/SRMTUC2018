@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en" data-scroll-dir-x="0" data-scroll-dir-y="0"><head><meta
+            http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <style>
+#pageloader {
+    background-color: #9E6E29;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+    
+.loader-item {
+    height: 40px;
+    left: 45%;
+    margin: -20px 0 0 -20px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 40px;
+}
+       @media screen and (max-width:747px){
+
+.loader-item {
+        margin-left:-45px;
+        }
+}
+ 
+    
+</style>
+
+    </head><body style="overflow-y: initial;" data-aos-easing="ease"
+        data-aos-duration="400" data-aos-delay="0"
+        data-new-gr-c-s-check-loaded="14.1018.0" data-gr-ext-installed=""><div
+            id="pageloader" style="display: none;">
+            <div class="loader-item">
+                <img src="./Products_Page_files/hearts.svg" alt="page loader"
+                    style="max-width:500%!important;margin-left:
+                    -100%;!important">
+            </div>
+        </div>
+
+        <script>
+    document.addEventListener("DOMContentLoaded", function(event) { 
+          $('#pageloader').fadeOut();
+          $('body').css('overflow-y','initial');
+    });
+</script>
+
+
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>zer0xception</title>
+
+        <link rel="stylesheet" type="text/css"
+            href="./Products_Page_files/glider.min.css">
+        <link href="./Products_Page_files/css2" rel="stylesheet">
+        <link rel="stylesheet" href="./Products_Page_files/customStyles.css">
+        <link href="./Products_Page_files/font-awesome.min.css" rel="stylesheet"
+            integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+            crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css"
+            href="./Products_Page_files/products.css">
+        <link rel="stylesheet" href="./Products_Page_files/built.css"
+            crossorigin="anonymous">
+        <script src="./Products_Page_files/glider.min.js"></script>
+
+        <script src="./Products_Page_files/scroll-out.min.js"></script>
+
+        <link rel="stylesheet" href="./Products_Page_files/aos.css">
+
+
+
+        <style>
+[data-scroll] {
+transition: all 2s;
+}
+[data-scroll="in"] {
+opacity: 1;
+transform: translateX(0);
+}
+[data-scroll="out"] {
+opacity: 0;
+transform: translateX(-200px);
+}
+
+a:hover{
+color:#8F420E;
+text-decoration:none;
+}
+
+
+       .underline {
+              font-size: 16px;
+  text-decoration: none;
+  color: #8F420E;
+  padding: 8px 24px;
+  margin: 0px 20px;
+
+           
+           position : relative;
+  display : inline-block;
+}
+.underline::after {
+  content : "";
+  position : absolute;
+  width : 100%;
+  height : 2px;
+  background-color:#8F420E;
+  bottom: 0;
+  left: 0;
+  transform : scaleX(0);
+  transform-origin: bottom right;
+  transition : transform 0.25s linear;
+}
+.underline:hover::after {
+  transform-origin: bottom left;
+    transform: scaleX(1);
+}
+        
+@media screen and (max-width:767px){
+    .footer-iframe {
+        height:120vh;
+    }
+}
+        
+        
+        
+@media screen and (min-width:768px){
+    .footer-iframe {
+        height:100vh;
+    }
+}
+
+         @media screen and (max-width:361px){
+            
+            .table{
+                margin-left:-5px;
+            }
+        }  
+
+       
+        @media screen and (max-width:321px){
+            
+            .table{
+                margin-left:-20px;
+            }
+        }  
+
+</style>
+        <noscript>
+            <strong>We're sorry but this application doesn't work properly
+                without JavaScript enabled. Please enable it to
+                continue.
+            </strong>
+        </noscript>
+
+        <header class="bg-primarygrey -mt-6 work-sans-b">
+            <a href="Bakers Circle.html"><img class="-mb-6 mt-3 ml-8 z-20
+                    pt-1 relative sm:ml-16 lg:ml-24 lg:w-32"
+                    src="./Products_Page_files/business_logo 1.png" alt="Bakers
+                    Circle"></a>
+            <div class="scrollnav hidden lg:flex w-10/12 justify-evenly ml-64
+                lg:-mt-16 pb-3 fading">
+                <a class="text-primarybrown px-6 py-2 underline"
+                    href="#AboutUs">Menu item #1 </a>
+                <a class="text-primarybrown px-6 py-2 underline"
+                    href="#IndustrySolutions">
+                    Menu item #1</a>
+                <a class="text-primarybrown px-6 py-2 underline"
+                    href="#Products">Menu item #1</a>
+                <a class="text-primarybrown px-6 py-2 underline"
+                    href="#Infrastructure">Menu item #1</a>
+                <a class="text-primarybrown px-6 py-2 underline"
+                    href="#Connect">Menu item #1</a>
+            </div>
+
+        </header>
+
+        <img class="landingPic" src="./Products_Page_files/infra.jpg"
+            alt="dummy">
+
+        <div class="productsContainer">
+            <div class="searchHeadingSection">
+                <div class="searchHeadingContent">
+                    <h2 class="searchHeading">Cakes</h2>
+                    <span data-aos="fade-left" class="searchSide aos-init"> ( 11
+                        Products )</span>
+                </div>
+            </div>
+        </div>
+        <div class="ProductsSuper" style="margin-bottom:8%;">
+            <div class="ProductsSection">
+                <div>
+                    <button class="dropdown" onclick="drop()" id="droper"><p>CHOCO
+                            MANGO DELIGHT</p>
+                        <img class="caret" src="./Products_Page_files/down.svg"
+                            id="arrow" alt="dummy"></button>
+                    <div class="scrollbarContainer">
+                        <div class="scrollbar" id="style-1" style="overflow-y:
+                            scroll;overflow-x: hidden;">
+                            <ul class="allItems">
+
+                                <li class="items" style="width: fit-content;
+                                    margin-bottom: 0.2em; border-bottom: 2px
+                                    solid rgb(143, 66, 14); color: rgb(143, 66,
+                                    14);" data-selection="8">CHOCO MANGO DELIGHT</li>
+                                <li class="items" style="width: fit-content;
+                                    margin-bottom: 0.2em;" data-selection="9">RED
+                                    VELVET LARGE</li>
+
+                                <li class="items" style="width: fit-content;
+                                    margin-bottom: 0.2em;" data-selection="10">BAKED
+                                    CHEESE CAKE</li>
+
+                                <li class="items" style="width: fit-content;
+                                    margin-bottom: 0.2em;" data-selection="6">COCOA
+                                    FANTASY LARGE</li>
+
+                                <li class="items" style="width: fit-content;
+                                    margin-bottom: 0.2em;" data-selection="16">CHOCOLICIOUS
+                                    MEDIUM CAKE</li>
+
+                                <li class="items" style="width: fit-content;
+                                    margin-bottom: 0.2em;" data-selection="7">CHOCOLICIOUS
+                                    CAKE LARGE</li>
+
+                                <li class="items" style="width: fit-content;
+                                    margin-bottom: 0.2em;" data-selection="11">BAKED
+                                    CHOCO CHEESE CAKE</li>
+
+                                <li class="items" style="width: fit-content;
+                                    margin-bottom: 0.2em;" data-selection="13">ALMOND
+                                    HONEY CAKE</li>
+
+                                <li class="items" style="width: fit-content;
+                                    margin-bottom: 0.2em;" data-selection="14">LEMON
+                                    CAKE</li>
+
+                                <li class="items" style="width: fit-content;
+                                    margin-bottom: 0.2em;" data-selection="15">RED
+                                    VELVET MEDIUM</li>
+
+                                <li class="items" style="width: fit-content;
+                                    margin-bottom: 0.2em;" data-selection="12">CHERRY
+                                    CHEESECAKE</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div> <!-- End Of First Div in Products Section -->
+
+                <script>
+            var previous_selector = "8"
+        </script>
+                <table class="table" data-table="8">
+                    <tbody><tr class="row">
+                            <td class="round1">Serieal No.</td>
+                            <td class="round2">1234567890</td>
+                        </tr>
+                        <tr class="row">
+                            <td>Category</td>
+                            <td>Large Cake - Pre Sliced</td>
+                        </tr>
+                        <tr class="row">
+                            <td>Pack Size</td>
+                            <td>1 case x 4 cakes x 1.36 kg x 10 slices</td>
+                        </tr>
+                        <tr class="row">
+                            <td>Best Before</td>
+                            <td> 180 days </td>
+                        </tr>
+                        <tr class="row">
+                            <td>Steps</td>
+                            <td>Thaw &amp; Serve</td>
+                        </tr>
+                        <tr class="row">
+                            <td class="round3">Veg / Nveg</td>
+                            <td class="round4"> Veg. </td>
+                        </tr>
+                    </tbody></table>
+
+                <table class="table" data-table="9" style="display:none">
+                    <tbody><tr class="row">
+                            <td class="round1">Serieal No.</td>
+                            <td class="round2">1234567890</td>
+                        </tr>
+                        <tr class="row">
+                            <td>Category</td>
+                            <td>Large Cake - Pre Sliced</td>
+                        </tr>
+                        <tr class="row">
+                            <td>Pack Size</td>
+                            <td>1 case x 4 cakes x 1.48 kg x 10 slices</td>
+                        </tr>
+                        <tr class="row">
+                            <td>Best Before</td>
+                            <td> 180 days </td>
+                        </tr>
+                        <tr class="row">
+                            <td>Steps</td>
+                            <td>Thaw &amp; Serve</td>
+                        </tr>
+                        <tr class="row">
+                            <td class="round3">Veg / Nveg</td>
+                            <td class="round4"> Veg. </td>
+                        </tr>
+                    </tbody></table>
+
+                <table class="table" data-table="10" style="display:none">
+                    <tbody><tr class="row">
+                            <td class="round1">Serieal No.</td>
+                            <td class="round2">1234567890</td>
+                        </tr>
+                        <tr class="row">
+                            <td>Category</td>
+                            <td>Large Cake - Pre Sliced</td>
+                        </tr>
+                        <tr class="row">
+                            <td>Pack Size</td>
+                            <td>1 case x 4 cakes x 2.2 kg x 12 slices</td>
+                        </tr>
+                        <tr class="row">
+                            <td>Best Before</td>
+                            <td> 180 days </td>
+                        </tr>
+                        <tr class="row">
+                            <td>Steps</td>
+                            <td>Thaw &amp; Serve</td>
+                        </tr>
+                        <tr class="row">
+                            <td class="round3">Veg / Nveg</td>
+                            <td class="round4"> Non Veg. </td>
+                        </tr>
+                    </tbody></table>
+
+                <table class="table" data-table="6" style="display:none">
+                    <tbody><tr class="row">
+                            <td class="round1">Serieal No.</td>
+                            <td class="round2">1234567890</td>
+                        </tr>
+                        <tr class="row">
+                            <td>Category</td>
+                            <td>Large Cake - Pre Sliced</td>
+                        </tr>
+                        <tr class="row">
+                            <td>Pack Size</td>
+                            <td>1 case x 4 cakes x 1.5 kg x 12 slices</td>
+                        </tr>
+                        <tr class="row">
+                            <td>Best Before</td>
+                            <td> 180 days </td>
+                        </tr>
+                        <tr class="row">
+                            <td>Steps</td>
+                            <td>Thaw &amp; Serve / Freezer to Microwave</td>
+                        </tr>
+                        <tr class="row">
+                            <td class="round3">Veg / Nveg</td>
+                            <td class="round4"> Veg. </td>
+                        </tr>
+                    </tbody></table>
+
+                <table class="table" data-table="16" style="display:none">
+                    <tbody><tr class="row">
+                            <td class="round1">Serieal No.</td>
+                            <td class="round2">1234567890</td>
+                        </tr>
+                        <tr class="row">
+                            <td>Category</td>
+                            <td>Medium Cake (Celebration Cake) - Unsliced</td>
+                        </tr>
+                        <tr class="row">
+                            <td>Pack Size</td>
+                            <td>1 case x 2 cakes x 720g</td>
+                        </tr>
+                        <tr class="row">
+                            <td>Best Before</td>
+                            <td> 180 days </td>
+                        </tr>
+                        <tr class="row">
+                            <td>Steps</td>
+                            <td>Thaw &amp; Serve</td>
+                        </tr>
+                        <tr class="row">
+                            <td class="round3">Veg / Nveg</td>
+                            <td class="round4"> Veg. </td>
+                        </tr>
+                    </tbody></table>
+
+                <table class="table" data-table="7" style="display:none">
+                    <tbody><tr class="row">
+                            <td class="round1">Serieal No.</td>
+                            <td class="round2">1234567890</td>
+                        </tr>
+                        <tr class="row">
+                            <td>Category</td>
+                            <td>Large Cake - Pre Sliced</td>
+                        </tr>
+                        <tr class="row">
+                            <td>Pack Size</td>
+                            <td>1 case x 2 cakes x 2.2 kg x 10 slices</td>
+                        </tr>
+                        <tr class="row">
+                            <td>Best Before</td>
+                            <td> 180 days </td>
+                        </tr>
+                        <tr class="row">
+                            <td>Steps</td>
+                            <td>Thaw &amp; Serve / Freezer to Microwave</td>
+                        </tr>
+                        <tr class="row">
+                            <td class="round3">Veg / Nveg</td>
+                            <td class="round4"> Veg. </td>
+                        </tr>
+                    </tbody></table>
+
+                <table class="table" data-table="11" style="display:none">
+                    <tbody><tr class="row">
+                            <td class="round1">Serieal No.</td>
+                            <td class="round2">1234567890</td>
+                        </tr>
+                        <tr class="row">
+                            <td>Category</td>
+                            <td>Large Cake - Pre Sliced</td>
+                        </tr>
+                        <tr class="row">
+                            <td>Pack Size</td>
+                            <td>1 case x 4 cakes x 2.21 kg x 12 slices</td>
+                        </tr>
+                        <tr class="row">
+                            <td>Best Before</td>
+                            <td> 180 days </td>
+                        </tr>
+                        <tr class="row">
+                            <td>Steps</td>
+                            <td>Thaw &amp; Serve</td>
+                        </tr>
+                        <tr class="row">
+                            <td class="round3">Veg / Nveg</td>
+                            <td class="round4"> Non Veg. </td>
+                        </tr>
+                    </tbody></table>
+
+                <table class="table" data-table="13" style="display:none">
+                    <tbody><tr class="row">
+                            <td class="round1">Serieal No.</td>
+                            <td class="round2">1234567890</td>
+                        </tr>
+                        <tr class="row">
+                            <td>Category</td>
+                            <td>Dry Cake (Large) - Pre Sliced</td>
+                        </tr>
+                        <tr class="row">
+                            <td>Pack Size</td>
+                            <td>1 case x 4 cakes x 1.11 kg x 10 slices</td>
+                        </tr>
+                        <tr class="row">
+                            <td>Best Before</td>
+                            <td> 270 days </td>
+                        </tr>
+                        <tr class="row">
+                            <td>Steps</td>
+                            <td>Thaw &amp; Serve / Freezer to Microwave</td>
+                        </tr>
+                        <tr class="row">
+                            <td class="round3">Veg / Nveg</td>
+                            <td class="round4"> Veg. </td>
+                        </tr>
+                    </tbody></table>
+
+                <table class="table" data-table="14" style="display:none">
+                    <tbody><tr class="row">
+                            <td class="round1">Serieal No.</td>
+                            <td class="round2">1234567890</td>
+                        </tr>
+                        <tr class="row">
+                            <td>Category</td>
+                            <td>Dry Cake (Large) - Pre Sliced</td>
+                        </tr>
+                        <tr class="row">
+                            <td>Pack Size</td>
+                            <td>1 case x 4 cakes x 860g x 10 slices</td>
+                        </tr>
+                        <tr class="row">
+                            <td>Best Before</td>
+                            <td> 270 days </td>
+                        </tr>
+                        <tr class="row">
+                            <td>Steps</td>
+                            <td>Thaw &amp; Serve / Freezer to Microwave</td>
+                        </tr>
+                        <tr class="row">
+                            <td class="round3">Veg / Nveg</td>
+                            <td class="round4"> Veg. </td>
+                        </tr>
+                    </tbody></table>
+
+                <table class="table" data-table="15" style="display:none">
+                    <tbody><tr class="row">
+                            <td class="round1">Serieal No.</td>
+                            <td class="round2">1234567890</td>
+                        </tr>
+                        <tr class="row">
+                            <td>Category</td>
+                            <td>Medium Cake (Celebration Cake) - Unsliced</td>
+                        </tr>
+                        <tr class="row">
+                            <td>Pack Size</td>
+                            <td>1 case x 2 cakes x 740g</td>
+                        </tr>
+                        <tr class="row">
+                            <td>Best Before</td>
+                            <td> 180 days </td>
+                        </tr>
+                        <tr class="row">
+                            <td>Steps</td>
+                            <td>Thaw &amp; Serve</td>
+                        </tr>
+                        <tr class="row">
+                            <td class="round3">Veg / Nveg</td>
+                            <td class="round4"> Veg. </td>
+                        </tr>
+                    </tbody></table>
+
+                <table class="table" data-table="12" style="display:none">
+                    <tbody><tr class="row">
+                            <td class="round1">Serieal No.</td>
+                            <td class="round2">1234567890</td>
+                        </tr>
+                        <tr class="row">
+                            <td>Category</td>
+                            <td>Large Cake - Pre Sliced</td>
+                        </tr>
+                        <tr class="row">
+                            <td>Pack Size</td>
+                            <td>1 case x 4 cakes x 2.21 kg x 12 slices</td>
+                        </tr>
+                        <tr class="row">
+                            <td>Best Before</td>
+                            <td> 180 days </td>
+                        </tr>
+                        <tr class="row">
+                            <td>Steps</td>
+                            <td>Thaw &amp; Serve</td>
+                        </tr>
+                        <tr class="row">
+                            <td class="round3">Veg / Nveg</td>
+                            <td class="round4"> Veg. </td>
+                        </tr>
+                    </tbody></table>
+
+            </div> <!-- End Of FlexBox of Products Secton -->
+
+            <style>
+
+
+          #button-2 {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#button-4 {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#button-4 a {
+  position: relative;
+  transition: all .45s ease-Out;
+}
+
+#underline {
+  width: 100%;
+  height: 4.5px;
+  margin-top: 15px;
+  align-self: flex-end;
+  left: -200px;
+  background: #BFC0C0;
+  position: absolute;
+  transition: all .3s ease-Out;
+  bottom: 0;
+}
+
+#button-4:hover #underline {
+  left: 0;
+}
+
+
+        </style>
+            <!--
+    <button class="download" id="button-4">
+        DOWNLOAD THE CATALOGUE
+        
+         <div id="underline"></div>
+
+    </button>
+-->
+            <span data-tilt="" class="cakeContainer" style="margin-bottom:-7%;">
+                <img class="cake aos-init" src="./Products_Page_files/cake.png"
+                    alt="" data-aos="fade-up">
+            </span>
+
+        </div><!-- End Of Products Super  -->
+        <div class="browseSuper">
+            <div class="browseContainer">
+                <h2 data-scroll="out" class="carouselHeading">Browse Other
+                    Products</h2>
+                <div class="caroArrange">
+                    <button aria-label="Previous" class="glider-prev disabled">
+                        <img class="prevarrow"
+                            src="./Products_Page_files/left.svg" alt="Previous">
+                    </button>
+                    <div class="glider caroContainer draggable">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        <div class="glider-track" style="width: 1842px;"><div
+                                data-tilt="" class="glider-slide active visible
+                                left-2" style="height: auto; width: 230.25px;"><a
+                                    href="products/6">
+                                    <img class="caroimage aos-init"
+                                        src="./Products_Page_files/pp1.jpg"
+                                        alt="" data-aos="fade-up">
+                                    <div class="nameImg aos-init"
+                                        data-aos="fade-up"> Cakes</div></a>
+                            </div><div data-tilt="" class="glider-slide visible
+                                left-1" style="height: auto; width: 230.25px;"><a
+                                    href="products/7">
+                                    <img class="caroimage aos-init"
+                                        src="./Products_Page_files/pp2.jpg"
+                                        alt="" data-aos="fade-up">
+                                    <div class="nameImg aos-init"
+                                        data-aos="fade-up"> Cups, Jars &amp;
+                                        Shots</div></a>
+                            </div><div data-tilt="" class="glider-slide center
+                                visible" style="height: auto; width: 230.25px;"><a
+                                    href="products/8">
+                                    <img class="caroimage aos-init"
+                                        src="./Products_Page_files/pp3.jpg"
+                                        alt="" data-aos="fade-up">
+                                    <div class="nameImg aos-init"
+                                        data-aos="fade-up"> Individuals</div></a>
+                            </div><div data-tilt="" class="glider-slide center
+                                visible" style="height: auto; width: 230.25px;"><a
+                                    href="products/9">
+                                    <img class="caroimage aos-init"
+                                        src="./Products_Page_files/pp4.jpg"
+                                        alt="" data-aos="fade-up">
+                                    <div class="nameImg aos-init"
+                                        data-aos="fade-up"> Brownies, Muffins
+                                        &amp; Cookies</div></a>
+                            </div><div data-tilt="" class="glider-slide right-1"
+                                style="height: auto; width: 230.25px;"><a
+                                    href="products/10">
+                                    <img class="caroimage aos-init"
+                                        src="./Products_Page_files/pp5.jpg"
+                                        alt="" data-aos="fade-up">
+                                    <div class="nameImg aos-init"
+                                        data-aos="fade-up"> Laminated Frozen
+                                        Dough</div></a>
+                            </div><div data-tilt="" class="glider-slide right-2"
+                                style="height: auto; width: 230.25px;"><a
+                                    href="products/11">
+                                    <img class="caroimage aos-init"
+                                        src="./Products_Page_files/pp6.jpg"
+                                        alt="" data-aos="fade-up">
+                                    <div class="nameImg aos-init"
+                                        data-aos="fade-up"> Frozen Dough</div></a>
+                            </div>
+                            <div data-tilt="" class="glider-slide right-3"
+                                style="height: auto; width: 230.25px;"><a
+                                    href="products/12">
+                                    <img class="caroimage aos-init"
+                                        src="./Products_Page_files/pp7.jpg"
+                                        alt="" data-aos="fade-up">
+                                    <div class="nameImg aos-init"
+                                        data-aos="fade-up"> Par Bakes</div></a>
+                            </div>
+                            <div data-tilt="" class="glider-slide right-4"
+                                style="height: auto; width: 230.25px;"><a
+                                    href="products/13">
+                                    <img class="caroimage aos-init"
+                                        src="./Products_Page_files/pp8.jpg"
+                                        alt="" data-aos="fade-up">
+                                    <div class="nameImg aos-init"
+                                        data-aos="fade-up"> Pizza &amp; Pies</div></a>
+                            </div></div></div>
+                    <button aria-label="Next" class="glider-next">
+                        <img class="nextarrow"
+                            src="./Products_Page_files/right.svg" alt="Next">
+                    </button>
+                </div>
+            </div>
+        </div>
+        <style>
+        @media screen and (min-width:767px){
+            #Products{
+                display:none;
+            }
+        }
+</style>
+        <section class="mt-10 bg-white lg:mt-12 lg:mb-12" id="Products">
+            <img class="absolute wheatimg -mt-12 hidden lg:inline"
+                src="./Products_Page_files/wheat.png" alt="">
+            <h3 class="sectionheader text-center text-primarybrown
+                leading-normal work-sans-m p-2">
+                Browse Other Products
+            </h3>
+            <div class="ProductItems container grid grid-cols-2 sm:grid-cols-3
+                lg:grid-cols-4 row-gap-5 sm:row-gap-6 lg:pt-3 sm:col-gap-16
+                items-baseline items-center">
+
+                <figure class="flex flex-col sm:p-2">
+                    <a href="products/6">
+                        <img class="self-center"
+                            src="./Products_Page_files/cake.png.webp"></a>
+                    <figcaption class="self-center nameImg">Cakes</figcaption>
+                </figure>
+
+                <figure class="flex flex-col sm:p-2">
+                    <a href="products/7">
+                        <img class="self-center"
+                            src="./Products_Page_files/Cups_Jars__Shots.png.webp"></a>
+                    <figcaption class="self-center nameImg">Cups, Jars &amp;
+                        Shots</figcaption>
+                </figure>
+
+                <figure class="flex flex-col sm:p-2">
+                    <a href="products/8">
+                        <img class="self-center"
+                            src="./Products_Page_files/individuals.png.webp"></a>
+                    <figcaption class="self-center nameImg">Individuals</figcaption>
+                </figure>
+
+                <figure class="flex flex-col sm:p-2">
+                    <a href="products/9">
+                        <img class="self-center"
+                            src="./Products_Page_files/Brownies_Muffins__Cookies_.png.webp"></a>
+                    <figcaption class="self-center nameImg">Brownies, Muffins
+                        &amp; Cookies</figcaption>
+                </figure>
+
+                <figure class="flex flex-col sm:p-2">
+                    <a href="products/10">
+                        <img class="self-center"
+                            src="./Products_Page_files/laminates.png.webp"></a>
+                    <figcaption class="self-center nameImg">Laminated Frozen
+                        Dough</figcaption>
+                </figure>
+
+                <figure class="flex flex-col sm:p-2">
+                    <a href="products/11">
+                        <img class="self-center"
+                            src="./Products_Page_files/frozen_dough.png.webp"></a>
+                    <figcaption class="self-center nameImg">Frozen Dough</figcaption>
+                </figure>
+
+                <figure class="flex flex-col sm:p-2">
+                    <a href="products/12">
+                        <img class="self-center"
+                            src="./Products_Page_files/par_bakes.png.webp"></a>
+                    <figcaption class="self-center nameImg">Par Bakes</figcaption>
+                </figure>
+
+                <figure class="flex flex-col sm:p-2">
+                    <a href="products/13">
+                        <img class="self-center"
+                            src="./Products_Page_files/pizzapies.png.webp"></a>
+                    <figcaption class="self-center nameImg">Pizza &amp; Pies</figcaption>
+                </figure>
+
+            </div>
+        </section>
+        <style>
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+            
+</style>
+
+        <script>
+		window.addEventListener('load', function () {
+			new Glider(document.querySelector('.glider'), {
+				slidesToShow: 4,
+				slidesToScroll: 2,
+				draggable: true,
+				dots: '.dots',
+				arrows: {
+					prev: '.glider-prev',
+					next: '.glider-next'
+				}
+
+			})
+		})
+	
+</script>
+        <script>
+
+        function drop () {
+
+              var element = document.getElementById("style-1");
+              var button = document.getElementById("droper")
+				if (element.style.display === "none") {
+					element.style.display = "initial";
+                    document.getElementsByClassName('caret')[0].setAttribute('src','/static/assets/up.svg');
+
+				}
+				else {
+					element.style.display = "none";
+                    document.getElementsByClassName('caret')[0].setAttribute('src','/static/assets/down.svg');
+				}
+
+        }
+	
+</script>
+        <script>
+ $(document).ready(function(){
+
+         $('head').append($('header').detach());
+         $('body').remove();
+ })
+</script>
+
+        <script>
+ScrollOut({
+
+threshold: .25
+
+
+});
+
+
+  </script>
+        <script src="./Products_Page_files/aos.js"></script>
+        <script>
+    AOS.init();
+  </script>
+        <script>
+  AOS.init();
+
+// You can also pass an optional settings object
+// below listed default settings
+AOS.init({
+  // Global settings:
+  disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+  startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+  initClassName: 'aos-init', // class applied after initialization
+  animatedClassName: 'aos-animate', // class applied on animation
+  useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+  disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+  debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+  throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+
+  // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+  offset: 120, // offset (in px) from the original trigger point
+  delay: 0, // values from 0 to 3000, with step 50ms
+  duration: 400, // values from 0 to 3000, with step 50ms
+  easing: 'ease', // default easing for AOS animations
+  once: false, // whether animation should happen only once - while scrolling down
+  mirror: false, // whether elements should animate out while scrolling past them
+  anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+});
+</script>
+        <script src="./Products_Page_files/tilt.jquery.min.js" defer=""></script>
+        <script src="./Products_Page_files/jquery.min.js"></script>
+
+        <script>
+            
+        function show_table(target_element){
+            
+            if(previous_selector == $(target_element).attr('data-selection') ){
+                return true;   
+            }
+                
+               
+                $('.table').css('display','none')
+                $('[data-table="' + $(target_element).attr('data-selection')+'"]').stop().fadeIn(800,function(){
+                    if (window.screen.width < 760){
+                        $("#style-1").css('display','none');
+                        $($('#droper p')[0]).html($(target_element).html())
+                        $('.caret').attr('src','/static/assets/down.svg');
+                    }
+                });
+            previous_selector = $(target_element).attr('data-selection')
+        }
+        
+        $(document).ready(function(){
+                        
+            
+            $(".items").click(function() {
+                    show_table($(this))
+               }).hover(function() {
+                    show_table($(this))
+                    $('.items').css('color','');
+                    $('.items').css('border-bottom','');
+                    $(this).css('color','#8F420E');
+                    $(this).css('border-bottom','2px solid #8F420E');
+             })
+            
+            $('.items').css('margin-bottom','0.2em')
+         $($('.items')[0]).css('border-bottom','2px solid #8F420E') 
+         $($('.items')[0]).css('color','#8F420E')
+        })
+    </script>
+    </body></html>

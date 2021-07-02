@@ -1,0 +1,1201 @@
+<!DOCTYPE html>
+<html lang="en" data-scroll-dir-x="0" data-scroll-dir-y="-1">
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+        <style>
+#pageloader {
+    background-color: #9E6E29;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+    
+.loader-item {
+    height: 40px;
+    left: 45%;
+    margin: -20px 0 0 -20px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 40px;
+}
+       @media screen and (max-width:747px){
+
+.loader-item {
+        margin-left:-45px;
+        }
+}
+ 
+    
+</style>
+
+    </head>
+    <body class="bg-white" style="overflow-y: initial;"
+        data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0"
+        data-new-gr-c-s-check-loaded="14.1015.0" data-gr-ext-installed=""><div
+            id="pageloader" style="display: none;">
+            <div class="loader-item">
+                <img src="./Bakers_files/hearts.svg" alt="page loader"
+                    style="max-width:500%!important;margin-left: -100%
+                    !important;">
+            </div>
+        </div>
+
+        <script>
+    document.addEventListener("DOMContentLoaded", function(event) { 
+          $('#pageloader').fadeOut();
+          $('body').css('overflow-y','initial');
+    });
+</script>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>zer0xception</title>
+        <link rel="stylesheet" href="./Bakers_files/built.css"
+            type="text/css">
+        <link rel="stylesheet" href="./Bakers_files/bootstrap.min.css"
+            type="text/css">
+        <link rel="stylesheet" href="./Bakers_files/customStyles.css"
+            type="text/css">
+        <link rel="stylesheet" href="./Bakers_files/aos.css"
+            type="text/css">
+        <link rel="stylesheet" href="./Bakers_files/owl.carousel.min.css"
+            type="text/css">
+        <link rel="stylesheet" href="./Bakers
+            Circle_files/owl.theme.default.min.css" type="text/css">
+        <link rel="stylesheet" href="./Bakers_files/animate.min.css"
+            type="text/css">
+
+
+
+
+        <style>
+[data-scroll] {
+transition: all 2s;
+}
+[data-scroll="in"] {
+opacity: 1;
+transform: translateX(0);
+}
+[data-scroll="out"] {
+opacity: 0;
+transform: translateX(-200px);
+}
+
+a:hover{
+color:#8F420E;
+text-decoration:none;
+}
+
+.underline {
+              font-size: 16px;
+  text-decoration: none;
+  color: #8F420E;
+  padding: 8px 24px;
+  margin: 0px 20px;
+
+           
+           position : relative;
+  display : inline-block;
+}
+.underline::after {
+  content : "";
+  position : absolute;
+  width : 100%;
+  height : 2px;
+  background-color:#8F420E;
+  bottom: 0;
+  left: 0;
+  transform : scaleX(0);
+  transform-origin: bottom right;
+  transition : transform 0.25s linear;
+}
+.underline:hover::after {
+  transform-origin: bottom left;
+    transform: scaleX(1);
+}
+ 
+  .loading {
+      background: transparent url(/static/assets/loading.gif) center no-repeat;
+}   
+     
+</style>
+
+
+        <header class="bg-primarygrey -mt-6 work-sans-b">
+            <a href="">
+                <img class="-mb-6 mt-3 ml-8 z-20 pt-1 relative sm:ml-16 lg:ml-24
+                    lg:w-32" src="./Bakers_files/business_logo 1.png"
+                    alt="zer0xception">
+            </a>
+            <div class="scrollnav hidden lg:flex w-10/12 justify-evenly ml-64
+                lg:-mt-16 pb-3 fading">
+                <a class="text-primarybrown px-6 py-2 underline"
+                    href="#AboutUs">About Us</a>
+                <a class="text-primarybrown px-6 py-2 underline"
+                    href="#IndustrySolutions">Menu item #2</a>
+                <a class="text-primarybrown px-6 py-2 underline"
+                    href="#Products">Menu item #3</a>
+                <a class="text-primarybrown px-6 py-2 underline"
+                    href="#Infrastructure">Menu item #4</a>
+                <a class="text-primarybrown px-6 py-2 underline"
+                    href="#Connect">Footer</a>
+            </div>
+            <div class="menu-wrap lg:hidden">
+                <input type="checkbox" class="toggler" id="check">
+                <div class="hamburger">
+                    <div></div>
+                </div>
+                <div class="menu">
+                    <div>
+                        <div>
+                            <ul>
+                                <li>
+                                    <a href="#AboutUs"
+                                        id="HeadingAboutUs"
+                                        onclick="closeBox()">About Us</a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="#IndustrySolutions"
+                                        id="HeadingIndustrySolutions"
+                                        onclick="closeBox()">Menu item #2</a>
+                                </li>
+                                <li>
+                                    <a href="#Products"
+                                        id="HeadingProducts"
+                                        onclick="closeBox()">Menu item #3</a>
+                                </li>
+                                <li>
+                                    <a
+                                        href="#Infrastructure"
+                                        id="HeadingInfrastructure"
+                                        onclick="closeBox()">Menu item #4</a>
+                                </li>
+                                <li>
+                                    <a href="#Connect"
+                                        id="HeadingConnect"
+                                        onclick="closeBox()">Footer</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section>
+            <div id="carouselExampleIndicators" class="carousel slide sm:w-full"
+                data-ride="carousel">
+                <ol class="carousel-indicators">
+
+                    <li data-target="#carouselExampleIndicators"
+                        data-slide-to="0" class=""></li>
+
+                    <li data-target="#carouselExampleIndicators"
+                        data-slide-to="1" class="active"></li>
+
+                </ol>
+                <div class="carousel-inner">
+
+                    <div class="carousel-item active">
+                        <img src="./Bakers_files/banner-2.jpg"
+                            class="d-block w-100 loading" alt="..." width="1400"
+                            height="600">
+                    </div>
+
+                    <div class="carousel-item">
+                        <img src="./Bakers_files/banner-1.jpg"
+                            class="d-block w-100 loading" alt="..." width="1400"
+                            height="600">
+                    </div>
+
+                </div>
+
+                <a class="carousel-control-prev"
+                    href="#carouselExampleIndicators"
+                    role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next"
+                    href="#carouselExampleIndicators"
+                    role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </section>
+
+        <section id="WhiteBoxSection" class="bg-primarygrey lg:px-5 lg:flex
+            lg:justify-around">
+            <div class="flex items-center lg:py-10 pt-4 sm:pb-0">
+                <h3 data-scroll="out" class="DisplayTest ml-6 text-primarybrown
+                    lg:text-3xl work-sans-b leading-normal font-work lg:pr-6
+                    lg:ml-40 max-w-sm lg:max-w-lg">
+                    Partnered Brand logos
+                </h3>
+                <div>
+                    <img class="brandsImageRightmob lg:hidden sm:block"
+                        style="transform: translateY(-26px);" src="./Bakers
+                        Circle_files/brandsImageRight.png.webp" width="141"
+                        height="151">
+                </div>
+            </div>
+
+            <div class="whiteBox bg-white lg:w-4/12 rounded-lg
+                border-primarygrey bg-opacity-100 border-6 lg:mt-16 pb-4 pt-4
+                sm:p-2">
+                <div class="owldiv grid lg:gap-10 gap-4 grid-cols-4">
+
+                    <div id="owlone" class="owl-carousel flex items-center
+                        owl-theme row-span-1 col-span-4 owl-loaded owl-drag">
+                        <div class="owl-stage-outer">
+                            <div class="owl-stage"
+                                style="transform: translate3d(-578px, 0px, 0px);
+                                transition: all 3s linear 0s; width: 1504px;">
+                                <div
+                                    class="owl-item cloned" style="width:
+                                    105.625px; margin-right: 10px;">
+                                    <img
+                                        src="https://img.icons8.com/color/48/000000/mcdonalds.png"
+                                        /></div>
+                                <div
+                                    class="owl-item cloned" style="width:
+                                    105.625px; margin-right: 10px;"><img
+                                        src="https://img.icons8.com/doodle/48/000000/cake--v1.png"
+                                        /></div><div
+                                    class="owl-item cloned" style="width:
+                                    105.625px; margin-right: 10px;"><img
+                                        src="https://img.icons8.com/office/40/000000/banana-split.png"
+                                        /></div><div
+                                    class="owl-item cloned" style="width:
+                                    105.625px; margin-right: 10px;"><img
+                                        src="https://img.icons8.com/office/30/000000/pancake.png"
+                                        /></div><div
+                                    class="owl-item" style="width: 105.625px;
+                                    margin-right: 10px;"><img
+                                        src="https://img.icons8.com/bubbles/50/000000/dunkin-donuts.png"
+                                        /></div><div class="owl-item
+                                    active" style="width: 105.625px;
+                                    margin-right: 10px;"><img
+                                        src="https://img.icons8.com/office/48/000000/bread.png"
+                                        /></div><div class="owl-item
+                                    active" style="width: 105.625px;
+                                    margin-right: 10px;"><img
+                                        src="https://img.icons8.com/doodle/48/000000/milkshake.png"
+                                        /></div><div
+                                    class="owl-item active" style="width:
+                                    105.625px; margin-right: 10px;"><img
+                                        src="https://img.icons8.com/wired/64/000000/beer.png"
+                                        /></div><div
+                                    class="owl-item active" style="width:
+                                    105.625px; margin-right: 10px;"><img
+                                        src="https://img.icons8.com/emoji/48/000000/hot-pepper.png"
+                                        /></div><div
+                                    class="owl-item cloned" style="width:
+                                    105.625px; margin-right: 10px;"><img
+                                        src="https://img.icons8.com/doodle/48/000000/coffee-to-go.png"
+                                        /></div><div
+                                    class="owl-item cloned" style="width:
+                                    105.625px; margin-right: 10px;"><img
+                                        src="https://img.icons8.com/plasticine/100/000000/coffee.png"
+                                        /></div><div
+                                    class="owl-item cloned" style="width:
+                                    105.625px; margin-right: 10px;"><img
+                                        src="https://img.icons8.com/dusk/64/000000/melting-ice-cream.png"
+                                        /></div><div
+                                    class="owl-item cloned" style="width:
+                                    105.625px; margin-right: 10px;"><img
+                                        src="https://img.icons8.com/dusk/64/000000/coffee.png"
+                                        /></div></div></div><div
+                            class="owl-nav disabled"><button type="button"
+                                role="presentation" class="owl-prev"><span
+                                    aria-label="Previous">‹</span></button><button
+                                type="button" role="presentation"
+                                class="owl-next"><span aria-label="Next">›</span></button></div><div
+                            class="owl-dots disabled"></div></div>
+
+                    <div id="owltwo" class="owl-carousel flex items-center
+                        owl-theme row-span-1 col-span-4 owl-rtl owl-loaded
+                        owl-drag">
+
+
+
+
+                        <div class="owl-stage-outer">
+                            <div class="owl-stage"
+                                style="transform: translate3d(810px, 0px, 0px);
+                                transition: all 3s linear 0s; width: 1388px;">
+                                <div
+                                    class="owl-item cloned" style="width:
+                                    105.625px; margin-left: 10px;"><img
+                                        src="https://img.icons8.com/color/48/000000/mcdonalds.png"
+                                        /></div><div
+                                    class="owl-item cloned" style="width:
+                                    105.625px; margin-left: 10px;"><img
+                                        src="https://img.icons8.com/dusk/64/000000/melting-ice-cream.png"
+                                        /></div><div
+                                    class="owl-item cloned" style="width:
+                                    105.625px; margin-left: 10px;"><img
+                                        src="https://img.icons8.com/plasticine/100/000000/coffee.png"
+                                        /></div><div
+                                    class="owl-item cloned" style="width:
+                                    105.625px; margin-left: 10px;"><img
+                                        src="https://img.icons8.com/doodle/48/000000/cake--v1.png"
+                                        /></div><div
+                                    class="owl-item" style="width: 105.625px;
+                                    margin-left: 10px;"><img
+                                        src="https://img.icons8.com/emoji/48/000000/hot-pepper.png"
+                                        /></div><div
+                                    class="owl-item" style="width: 105.625px;
+                                    margin-left: 10px;"><img
+                                        src="https://img.icons8.com/doodle/48/000000/milkshake.png"
+                                        /></div><div class="owl-item"
+                                    style="width: 105.625px; margin-left:
+                                    10px;"><img
+                                        src="https://img.icons8.com/office/48/000000/bread.png"
+                                        /></div><div
+                                    class="owl-item active" style="width:
+                                    105.625px; margin-left: 10px;"><img
+                                        src="https://img.icons8.com/office/40/000000/banana-split.png"
+                                        /></div><div
+                                    class="owl-item cloned active" style="width:
+                                    105.625px; margin-left: 10px;"><img
+                                        src="https://img.icons8.com/bubbles/50/000000/dunkin-donuts.png"
+                                        alt="dummy" /></div><div
+                                    class="owl-item cloned active" style="width:
+                                    105.625px; margin-left: 10px;"><img
+                                        src="./Bakers_files/KFC.png.webp"
+                                        width="106" height="75"></div><div
+                                    class="owl-item cloned active" style="width:
+                                    105.625px; margin-left: 10px;"><img
+                                        src="./Bakers
+                                        Circle_files/mc_cafe.png.webp"
+                                        width="106" height="75"></div><div
+                                    class="owl-item cloned active" style="width:
+                                    105.625px; margin-left: 10px;"><img
+                                        src="https://img.icons8.com/office/30/000000/pancake.png"
+                                        alt="dummy" /></div></div></div><div
+                            class="owl-nav disabled"><button type="button"
+                                role="presentation" class="owl-prev"><span
+                                    aria-label="Previous">‹</span></button><button
+                                type="button" role="presentation"
+                                class="owl-next"><span aria-label="Next">›</span></button></div><div
+                            class="owl-dots disabled"></div></div>
+
+                    <div id="owlthree" class="owl-carousel flex items-center
+                        owl-theme row-span-1 col-span-4 owl-loaded owl-drag">
+                        <div class="owl-stage-outer"><div class="owl-stage"
+                                style="transform: translate3d(-809px, 0px, 0px);
+                                transition: all 3s linear 0s; width: 1388px;"><div
+                                    class="owl-item cloned" style="width:
+                                    105.625px; margin-right: 10px;">
+                                    <img
+                                        src="https://img.icons8.com/color/48/000000/mcdonalds.png"
+                                        alt="dummy" /></div>
+                                <div
+                                    class="owl-item cloned" style="width:
+                                    105.625px; margin-right: 10px;"><img
+                                        src="https://img.icons8.com/doodle/48/000000/cake--v1.png"
+                                        alt="dummy" /></div><div
+                                    class="owl-item cloned" style="width:
+                                    105.625px; margin-right: 10px;"><img
+                                        src="https://img.icons8.com/office/40/000000/banana-split.png"
+                                        alt="dummy" /></div><div
+                                    class="owl-item cloned" style="width:
+                                    105.625px; margin-right: 10px;"><img
+                                        src="https://img.icons8.com/office/30/000000/pancake.png"
+                                        alt="dummy" /></div><div
+                                    class="owl-item" style="width: 105.625px;
+                                    margin-right: 10px;"><img
+                                        src="https://img.icons8.com/bubbles/50/000000/dunkin-donuts.png"
+                                        alt="dummy" /></div><div class="owl-item
+                                    active" style="width: 105.625px;
+                                    margin-right: 10px;"><img
+                                        src="https://img.icons8.com/office/48/000000/bread.png"
+                                        alt="dummy" /></div><div class="owl-item
+                                    active" style="width: 105.625px;
+                                    margin-right: 10px;"><img
+                                        src="https://img.icons8.com/doodle/48/000000/milkshake.png"
+                                        alt="dummy" /></div><div
+                                    class="owl-item active" style="width:
+                                    105.625px; margin-right: 10px;"><img
+                                        src="https://img.icons8.com/wired/64/000000/beer.png"
+                                        alt="dummy" /></div><div
+                                    class="owl-item active" style="width:
+                                    105.625px; margin-right: 10px;"><img
+                                        src="https://img.icons8.com/emoji/48/000000/hot-pepper.png"
+                                        alt="dummy" /></div><div
+                                    class="owl-item cloned" style="width:
+                                    105.625px; margin-right: 10px;"><img
+                                        src="https://img.icons8.com/doodle/48/000000/coffee-to-go.png"
+                                        alt="dummy" /></div><div
+                                    class="owl-item cloned" style="width:
+                                    105.625px; margin-right: 10px;"><img
+                                        src="https://img.icons8.com/plasticine/100/000000/coffee.png"
+                                        alt="dummy" /></div><div
+                                    class="owl-item cloned" style="width:
+                                    105.625px; margin-right: 10px;"><img
+                                        src="https://img.icons8.com/dusk/64/000000/melting-ice-cream.png"
+                                        alt="dummy" /></div><div
+                                    class="owl-item cloned" style="width:
+                                    105.625px; margin-right: 10px;"><img
+                                        src="https://img.icons8.com/dusk/64/000000/coffee.png"
+                                        alt="dummy" /></div></div></div><div
+                            class="owl-nav disabled"><button type="button"
+                                role="presentation" class="owl-prev"><span
+                                    aria-label="Previous">‹</span></button><button
+                                type="button" role="presentation"
+                                class="owl-next"><span aria-label="Next">›</span></button></div><div
+                            class="owl-dots disabled"></div></div>
+
+                    <style>
+  @media screen and (min-width:768px){
+  .tradeMark{
+   width:450px;
+  font-size:9px;
+  text-align:center;
+  line-height:12px;
+ }
+  }
+@media screen and (max-width:767px){
+  .tradeMark{
+  left:67px;
+  width:355px;
+  font-size:8px;
+  text-align:center;
+  line-height:11px;
+
+  }
+@media screen and (max-width:361px){
+  .tradeMark{
+  left:67px;
+  width:328px;
+  font-size:8px;
+  text-align:center;
+  line-height:11px;
+
+  }
+
+
+  }
+
+</style>
+                    <span data-aos="fade-up" class="tradeMark aos-init">*All
+                        logos are the registered trademarks of the respective
+                        brands </span>
+
+                </div>
+            </div>
+
+            <!-- End OF Sections Brand White Box -->
+            <div>
+                <img class="brandsImageRightweb lg:block md:hidden sm:hidden"
+                    src="./Bakers_files/rolling_pin.jpg" alt="">
+            </div>
+        </section>
+
+
+        <section class="container lg:mt-24 lg:pt-8 lg:flex g:mb-16 aos-init"
+            id="AboutUs" data-aos="fade-right" data-aos-delay="0"
+            data-aos-duration="800" data-aos-easing="ease-in">
+
+            <style>
+        @media screen and (min-width:767px){
+        .aboutUS {
+            margin-left:-5%;
+            
+            }}
+    </style>
+            <div class="aboutUS max-w-md lg:max-w-lg pt-8 mr-3 lg:pr-8 pb-4
+                lg:mr-5">
+                <h2 class="sectionheader text-primarybrown work-sans-r
+                    leading-normal font-work p-2">
+                    About Us
+                </h2>
+                <p class="font-open open-sans-r p-2">
+                    It was popularised in the 1960s with
+                    the release of Letraset sheets containing Lorem Ipsum
+                    passages, and more recently with desktop publishing software
+                    like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <p class="font-open open-sans-r p-2">
+                    It has survived not only five centuries,
+                    but also the leap into electronic typesetting, remaining
+                    essentially unchanged. It was popularised in the 1960s with
+                    the release of Letraset sheets containing Lorem Ipsum
+                    passages, and more recently with desktop publishing software
+                    like Aldus PageMaker including versions of Lorem Ipsum. </p>
+                <p class="font-open open-sans-r p-2">
+                    It was popularised in the 1960s with
+                    the release of Letraset sheets containing Lorem Ipsum
+                    passages, and more recently
+                </p>
+                <p class="font-open open-sans-r p-2">
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the industry's
+                    standard dummy text ever since the 1500s, when an unknown
+                    printer took a galley of type and scrambled it to make a
+                    type specimen book. </p>
+            </div>
+            <style>
+
+.webviewcake{
+transition: all .5s ease-in-out;
+      }
+.webviewcorr{
+transition: all .5s ease-in-out;
+      }
+      .webviewcake:hover{
+      transform: scale(1.025);
+}
+.webviewcorr:hover{
+      transform: scale(1.025);
+}
+
+
+
+    </style>
+
+
+            <!-- End Of Heading And Para Container Of About Us Section -->
+            <div class="flex py-12 mx-2 sm:mx-16 lg:mx-32 lg:mt-32 z-20
+                aos-init" data-aos="fade-left" data-aos-delay="0"
+                data-aos-duration="1000" data-aos-easing="ease-in">
+
+                <img class="webviewcake lg:h-64 rounded-lg sm:h-56"
+                    src="./Bakers_files/cake.jpg"
+                    alt="Pastry&#39;s!" width="471" height="355">
+                <img class="webviewcorr lg:h-64 rounded-lg -ml-12 -mt-12
+                    sm:h-40" src="./Bakers_files/Crossaint.jpg"
+                    alt="Croissants"
+                    width="314" height="355">
+
+            </div>
+        </section>
+        <section class="bg-primarygrey" id="IndustrySolutions">
+            <div class="lg:w-11/12 mx-auto lg:flex lg:justify-start">
+                <div class="pt-4 lg:mr-8 lg:w-1/3">
+                    <h3 class="sectionheader text-primarybrown lg:text-3xl mb-2
+                        lg:pt-10 text-3xl work-sans-m sm:leading-tight lg:mb-3"
+                        data-scroll="out">
+                        Key features of the services
+                    </h3>
+                    <h5 class="titleweb open-sans-m lg:text-2x1 text-1x1
+                        lg:py-4" data-scroll="out">
+                        Our solutions provide the<br> following for you
+                    </h5>
+                    <h5 class="titlemob open-sans-m lg:text-2x1 text-1x1
+                        lg:py-4" data-scroll="out">
+                        Our solutions provide the following for you
+                    </h5>
+
+                    <style>
+
+
+          #button-2 {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#button-4 {
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#button-4 a {
+  position: relative;
+  transition: all .45s ease-Out;
+}
+
+#underline {
+  width: 100%;
+  height: 4.5px;
+  margin-top: 15px;
+  align-self: flex-end;
+  left: -200px;
+  background: #BFC0C0;
+  position: absolute;
+  transition: all .3s ease-Out;
+  bottom: 0;
+}
+
+#button-4:hover #underline {
+  left: 0;
+}
+
+
+        </style>
+                </div>
+
+                <div class="solImage aos-init" style="transform:
+                    translateY(40px);height:auto" data-aos="fade-up">
+                    <div class="grid grid-cols-2 sm:grid-cols-3 lg:ml-4 mx-auto
+                        rounded-lg">
+
+
+                        <img data-tilt=""
+                            src="https://img.icons8.com/bubbles/100/000000/water.png"
+                            alt="bakery" />
+
+                        <img data-tilt=""
+                            src="https://img.icons8.com/bubbles/100/000000/worker-male.png"
+                            alt="bakery" />
+
+                        <img data-tilt=""
+                            src="https://img.icons8.com/bubbles/100/000000/work.png"
+                            alt="bakery" />
+
+                        <img data-tilt=""
+                            src="https://img.icons8.com/bubbles/100/000000/eco-fuel.png"
+                            alt="bakery" />
+
+                        <img data-tilt=""
+                            src="https://img.icons8.com/bubbles/100/000000/sustainable-energy.png"
+                            alt="bakery" />
+
+                        <img data-tilt=""
+                            src="https://img.icons8.com/bubbles/100/000000/ground-symbol.png"
+                            alt="bakery" />
+
+                    </div>
+                </div>
+            </div></section>
+        <section class="mt-10 bg-white lg:mt-12 lg:mb-12" id="Products">
+            <img class="absolute wheatimg -mt-12 hidden lg:inline" src="./Bakers
+                Circle_files/wheat.png.webp" alt="">
+            <h3 data-scroll="out" class="sectionheader text-center
+                text-primarybrown leading-normal work-sans-m p-2">
+                The products we offer
+            </h3>
+            <style>
+
+
+.self-center{
+border-radius:2%;
+ transition: 0.3s ease-in-out;
+}
+
+  .self-center:hover{
+ transform:scale(1.1)
+
+</style>
+
+
+            <div class="ProductItems container grid grid-cols-2 sm:grid-cols-3
+                lg:grid-cols-4 row-gap-5 sm:row-gap-6 lg:pt-3 sm:col-gap-16
+                items-baseline items-center">
+
+                <figure data-tilt="" class="flex flex-col sm:p-2 aos-init"
+                    data-aos="fade-up">
+                    <a href="./Products_Page.html">
+                        <img class="self-center" src="./Bakers_files/cake.jpg"
+                            alt="dummy">
+                    </a>
+                    <figcaption class="self-center">Product #1</figcaption>
+                </figure>
+
+                <figure data-tilt="" class="flex flex-col sm:p-2 aos-init"
+                    data-aos="fade-up">
+                    <a href="#">
+                        <img class="self-center" src="./Bakers_files/prod2.jpg"
+                            alt="dummy">
+                    </a>
+                    <figcaption class="self-center">Product #2</figcaption>
+                </figure>
+                <figure data-tilt="" class="flex flex-col sm:p-2 aos-init"
+                    data-aos="fade-up">
+                    <a href="#">
+                        <img class="self-center" src="./Bakers_files/prod3.jpg"
+                            alt="dummy">
+                    </a>
+                    <figcaption class="self-center">Product #3</figcaption>
+                </figure>
+                <figure data-tilt="" class="flex flex-col sm:p-2 aos-init"
+                    data-aos="fade-up">
+                    <a href="#">
+                        <img class="self-center" src="./Bakers_files/prod4.jpg"
+                            alt="dummy">
+                    </a>
+                    <figcaption class="self-center">Product #4</figcaption>
+                </figure>
+                <figure data-tilt="" class="flex flex-col sm:p-2 aos-init"
+                    data-aos="fade-up">
+                    <a href="#">
+                        <img class="self-center" src="./Bakers_files/prod5.jpg"
+                            alt="dummy">
+                    </a>
+                    <figcaption class="self-center">Product #5</figcaption>
+                </figure>
+                <figure data-tilt="" class="flex flex-col sm:p-2 aos-init"
+                    data-aos="fade-up">
+                    <a href="#">
+                        <img class="self-center" src="./Bakers_files/prod6.jpg"
+                            alt="dummy">
+                    </a>
+                    <figcaption class="self-center">Product #6</figcaption>
+                </figure>
+                <figure data-tilt="" class="flex flex-col sm:p-2 aos-init"
+                    data-aos="fade-up">
+                    <a href="#">
+                        <img class="self-center" src="./Bakers_files/prod7.jpg"
+                            alt="dummy">
+                    </a>
+                    <figcaption class="self-center">Product #7</figcaption>
+                </figure>
+                <figure data-tilt="" class="flex flex-col sm:p-2 aos-init"
+                    data-aos="fade-up">
+                    <a href="#">
+                        <img class="self-center" src="./Bakers_files/prod8.jpg"
+                            alt="dummy">
+                    </a>
+                    <figcaption class="self-center">Product #8</figcaption>
+                </figure>
+
+            </div>
+        </section>
+        <section class="bg-primarygrey" id="Infrastructure">
+            <div class="lg:flex">
+                <div class="sectionleft lg:mr-5">
+                    <h3 data-scroll="out" class="sectionheader text-primarybrown
+                        font-work font-medium mb-4 lg:text-4xl">
+                        Market Capabilities<br>
+                    </h3>
+                    <span style="display: flex;" class="webInfraArrows h-12
+                        lg:block">
+                        <a class="mr-3" role="button" id="prevCarousel"
+                            href="#carouselExampleControls"
+                            data-slide="prev">
+                            <span class="" aria-hidden="true"></span>
+                            <img class="w-12 h-10" src="Bakers_files/left.svg"
+                                alt="Left">
+                        </a>
+                        <a class="" role="button" id="nextCarousel"
+                            href="#carouselExampleControls"
+                            data-slide="next">
+                            <span class="" aria-hidden="true"></span>
+                            <img class="w-12 h-10" src="Bakers_files/right.svg"
+                                alt="Right">
+                        </a>
+                    </span>
+                </div>
+                <div id="carouselExampleControls" class="carousel carousel-infra
+                    slide sm:w-full aos-init" data-ride="carousel"
+                    data-aos="fade-up">
+                    <div class="carousel-inner">
+
+                        <div class="carousel-item item">
+                            <img
+                                src="Bakers_files/capabilities1.jpg"
+                                class="d-block" alt="dummy">
+                            <div class="text-black open-sans-m">
+                                Capabilities #1
+                            </div>
+                        </div>
+
+                        <div class="carousel-item item">
+                            <img
+                                src="Bakers_files/capabilities11.jpg"
+                                class="d-block" alt="dummy">
+                            <div class="text-black open-sans-m">
+                                Capabilities #2
+                            </div>
+                        </div>
+
+                        <div class="carousel-item item">
+                            <img src="./Bakers_files/capabilities111.jpg"
+                                class="d-block" alt="dummy">
+                            <div class="text-black open-sans-m">
+                                Capabilities #3
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <span class="mobInfraArrows h-12">
+                    <a class="mr-3" role="button" id="prevCarouselmob"
+                        href="#carouselExampleControls"
+                        data-slide="prev">
+                        <span class="" aria-hidden="true"></span>
+                        <img class="w-12 h-10"
+                            src="./Bakers_files/left.svg" alt="Left">
+                    </a>
+                    <a class="" role="button" id="nextCarouselmob"
+                        href="#carouselExampleControls"
+                        data-slide="next">
+                        <span class="" aria-hidden="true"></span>
+                        <img class="w-12 h-10" src="./Bakers_files/right.svg"
+                            alt="Right">
+                    </a>
+                </span>
+            </div>
+        </section>
+        <div class="footerSection">
+            <div class="footerBG lg:block hidden">
+
+                <img src="./Bakers_files/prod4.jpg" alt="dummy">
+            </div>
+            <section class="lg:flex" id="Connect">
+                <div class="connectDetails pt-12 lg:w-3/12 px-4 lg:pb-8
+                    sm:pb-2">
+                    <div>
+                        <h6 class="text-primarybrown text-lg work-sans-r
+                            leading-normal font-work py-2">
+                            Address
+                        </h6>
+                        <span class="open-sans-m">
+                            1960s with
+                            the release of Letraset sheets </span>
+                    </div>
+                    <div>
+                        <h6 class="text-primarybrown text-lg work-sans-r
+                            leading-normal font-work mt-3">
+                            Phone
+                        </h6>
+                        <a href="tel:+91-1234567890" style="color:black;"><span
+                                class="open-sans-m">+91-1234567890</span> </a>
+                    </div>
+                    <div>
+                        <h6 class="text-primarybrown text-lg work-sans-r
+                            leading-normal font-work mb-2 pt-3">
+                            Email
+                        </h6>
+                        <a href="#"
+                            style="color:black;"><span class="open-sans-m">mail@bakeryshop.com</span>
+                        </a>
+
+                    </div>
+                </div>
+                <div class="connectDetails quickllinks lg:pt-12 lg:w-3/12 px-4
+                    lg:pb-8 sm:pb-2">
+                    <div class="lg:-mt-10 lg:-mt-16 work-sans-r lg:mt-2">
+                        <h6 class="text-primarybrown text-lg work-sans-r
+                            leading-normal font-work pb-3">
+                            Quick Links
+                        </h6>
+                        <div class="flex open-sans-m flex-col -mt-2">
+                            <span>About us</span>
+                            <span>Item #1</span>
+                            <span>Item #2</span>
+                            <span>Item #3</span>
+                            <span>Item #4</span>
+                        </div>
+                    </div>
+                    <div>
+                        <h6 class="text-primarybrown text-lg work-sans-r
+                            leading-normal font-work pt-2">
+                            Social Platforms
+                        </h6>
+                        <style>
+                    .fb{
+                                 margin-left:-1rem;
+                    }
+                    @media screen and (min-width:767px){
+                        .fb{
+                        margin-left:0.3rem;
+                 
+                            
+                        }
+                    }
+                </style>
+                        <div class="socialicons flex justify-start lg:-ml-2
+                            lg:mt-4">
+                            <a target="_blank" class="fb" href="#">
+                                <img
+                                    src="https://img.icons8.com/small/32/000000/facebook-new.png"
+                                    alt="FaceBook" />
+                            </a>
+                            <a target="_blank" class="fb" href="#">
+                                <img
+                                    src="https://img.icons8.com/small/32/000000/facebook-new.png"
+                                    alt="FaceBook" />
+                            </a>
+                            <a target="_blank" class="fb" href="#">
+                                <img
+                                    src="https://img.icons8.com/small/32/000000/facebook-new.png"
+                                    alt="FaceBook" />
+                            </a>
+                            <a target="_blank" class="fb" href="#">
+                                <img
+                                    src="https://img.icons8.com/small/32/000000/facebook-new.png"
+                                    alt="FaceBook" />
+                            </a>
+                            <a target="_blank" class="fb" href="#">
+                                <img
+                                    src="https://img.icons8.com/small/32/000000/facebook-new.png"
+                                    alt="FaceBook" />
+                            </a>
+
+                        </div>
+
+                        <div>
+                            <style>
+            @media screen and (min-width:747px){
+                
+                .fress{
+                    width:50%;
+                    transform:translate(-125px,95px);
+                }     }
+                 @media screen and (max-width:747px){
+           
+                .fress{
+                       transform:translateY(50px);
+             
+                     }
+                
+                
+            }
+                    
+                    </style>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="contactFormClass bg-primarygrey rounded lg:mt-12
+                    mb-12 lg:w-5/12">
+                    <form id="contactForm" autocomplete="off" class="lg:w-11/12
+                        mx-auto h-10/12 my-auto p-3">
+                        <div class="flex flex-wrap -mx-3 mb-6">
+                            <div class="w-full md:w-1/2 md:mb-0">
+                                <input class="appearance-none text-black
+                                    sm:w-full py-3 border-b border-b-2
+                                    border-black leading-tight
+                                    focus:outline-none focus:border-gray-500
+                                    bg-transparent mr-3" id="grid-first-name"
+                                    type="text" placeholder="Full Name">
+                            </div>
+                            <div class="w-full md:w-1/2">
+                                <input class="appearance-none text-black
+                                    border-b border-b-2 sm:w-full border-black
+                                    py-3 leading-tight focus:outline-none
+                                    focus:border-gray-500 bg-transparent"
+                                    id="grid-email" type="text"
+                                    placeholder="Email">
+                            </div>
+
+                            <div class="flex lg:w-full">
+                                <input class="appearance-none lg:w-full block
+                                    text-black border-b border-b-2 border-black
+                                    text-black py-3 leading-tight
+                                    focus:outline-none focus:border-gray-500
+                                    bg-transparent" id="grid-password"
+                                    type="tel" placeholder="Phone No.">
+                            </div>
+                            <div class="relative w-full">
+                                <select class="block lg:w-full appearance-none
+                                    border-b border-b-2 border-black text-black
+                                    py-3 pr-32 leading-tight focus:outline-none
+                                    focus:border-gray-500 bg-transparent"
+                                    id="grid-state">
+                                    <option>Field</option>
+                                    <option>Field2</option>
+                                    <option>Field3</option>
+                                </select>
+                                <div class="pointer-events-none absolute
+                                    inset-y-0 right-0 items-center px-2
+                                    text-gray-700" style="margin-top:15px">
+                                    <svg class="fill-current h-4 w-4"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 20 20">
+                                        <path d="M9.293 12.95l.707.707L15.657
+                                            8l-1.414-1.414L10 10.828 5.757 6.586
+                                            4.343 8z"></path>
+                                    </svg>
+                                </div>
+                            </div>
+
+                            <input class="appearance-none block w-full
+                                text-black border-b border-b-2 border-black py-3
+                                leading-tight focus:outline-none
+                                focus:border-gray-500 bg-transparent"
+                                id="grid-company" type="text"
+                                placeholder="Company Name">
+                            <input class="appearance-none block w-full
+                                text-black border-b border-b-2 border-black py-3
+                                leading-tight focus:outline-none
+                                focus:border-gray-500 bg-transparent"
+                                id="grid-message" type="text" placeholder="Type
+                                Your Message">
+                            <button class="bg-primarybrown text-white py-2 px-8
+                                rounded font-medium tracking-wider mt-6 mb-6">
+                                SUBMIT
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <footer class="lg:mt-12 border-t-2 border-black border-opacity-100
+                border-solid pt-4 sm:p-2 md:p-2">
+
+                <div class="copyright">
+                    Copyright©2020 zer0xception. All rights reserved.
+                </div>
+
+                <a href="#" target="_blank"
+                    style="color:black;">
+                    <div class="developertag">
+                        Developed by zer0xception
+                    </div> </a>
+            </footer>
+        </div>
+        <script src="./Bakers_files/jquery-3.5.1.js"></script>
+        <script src="./Bakers_files/scroll-out.min.js"></script>
+        <script src="./Bakers_files/owl.carousel.js"></script>
+        <script src="./Bakers_files/popper.min.js"></script>
+        <script src="./Bakers_files/bootstrap.min.js"></script>
+        <script>
+      function closeBox() {
+        var checkBox = document.getElementById("check");
+        if (checkBox.checked == true) {
+          checkBox.checked = false;
+        }
+      }
+
+        $('[data-slide-to="0"]').addClass('active')
+        $($('.carousel-inner').children()[0]).addClass('active')
+        $($('#carouselExampleIndicatorsMobileView').find('.carousel-inner').children()[0]).addClass('active')
+        $($('#carouselExampleControls').find('.carousel-inner').children()[0]).addClass('active')
+
+    
+    var sliderinfra = $('.carousel-infra');
+        
+    var slider = $('.owl-carousel');
+    
+          $("#owlone").owlCarousel({
+            items: 4,
+            loop: true,
+            dots:false,
+            margin: 10,
+            autoplay: true,
+            smartSpeed: 2500,
+            autoplayTimeout: 3000,
+            autoplaySpeed: 3000,
+            slideTransition: "linear",
+            animateOut: "slideRight",
+            animateIn: "slideRight",
+          });
+
+          $("#owltwo").owlCarousel({
+            rtl: true,
+            items: 4,
+            loop: true,
+                dots:false,
+            
+            margin: 10,
+            autoplay: true,
+            smartSpeed: 1000,
+            autoplayTimeout: 3000,
+            autoplaySpeed: 3000,
+            slideTransition: "linear",
+            animateOut: "slideRight",
+            animateIn: "slideRight",
+          });
+
+          $("#owlthree").owlCarousel({
+            items: 4,
+            loop: true,
+            dots:false,
+            margin: 10,
+            autoplay: true,
+            smartSpeed: 1000,
+            autoplayTimeout: 3000,
+            autoplaySpeed: 3000,
+            slideTransition: "linear",
+            animateOut: "slideRight",
+            animateIn: "slideRight",
+          });
+
+
+        $('#nextCarousel').click(function () {
+            sliderinfra.trigger('next.owl.carousel');
+        });
+        $('#prevCarousel').click(function () {
+            sliderinfra.trigger('prev.owl.carousel');
+        });
+        $('#nextCarouselmob').click(function () {
+            slider.trigger('next.owl.carousel');
+        });
+        $('#prevCarouselmob').click(function () {
+            slider.trigger('prev.owl.carousel');
+        });
+
+      window.scroll({
+        top: 0,
+        left: 0,
+        behavior: "smooth",
+      });
+
+      window.scrollBy({
+        top: 0,
+        left: 0,
+        behavior: "smooth",
+      });
+    
+   window.onload = function(){
+         for (var i = document.images.length - 1; i >= 0; i--) {
+          var this_image = document.images[i];
+          var src = $(this_image).attr('src') || '' ;
+          if(!src.length > 0){
+            var src = $(this_image).attr('src') || '' ;
+            if(src.length > 0){
+              $(this_image).attr("src",src);
+            }
+          }
+        }
+    }    
+</script>
+        <script>
+ScrollOut({
+
+threshold: .25
+
+
+});
+
+
+  </script>
+        <script src="./Bakers_files/aos.js"></script>
+        <script>
+    AOS.init();
+  </script>
+        <script>
+  AOS.init();
+
+// You can also pass an optional settings object
+// below listed default settings
+AOS.init({
+  // Global settings:
+  disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+  startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+  initClassName: 'aos-init', // class applied after initialization
+  animatedClassName: 'aos-animate', // class applied on animation
+  useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+  disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+  debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+  throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+
+
+  // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+  offset: 120, // offset (in px) from the original trigger point
+  delay: 0, // values from 0 to 3000, with step 50ms
+  duration: 400, // values from 0 to 3000, with step 50ms
+  easing: 'ease', // default easing for AOS animations
+  once: false, // whether animation should happen only once - while scrolling down
+  mirror: false, // whether elements should animate out while scrolling past them
+  anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+});
+</script>
+
+        <script src="./Bakers_files/tilt.jquery.min.js"></script>
+
+
+
+    </body></html>
